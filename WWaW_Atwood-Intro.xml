@@ -39,7 +39,7 @@
 					<lb facs="#facs_2_l_17" n="N003"/>writing they do is different as well and cannot be read with the
 					<lb facs="#facs_2_l_18" n="N004"/>same eyeglasses as those used for the reading of male writers. Nor
 					<lb facs="#facs_2_l_19" n="N005"/>can writing by women be read in the same way by men as it can
-					<lb facs="#facs_2_l_20" n="N006"/>by women, and vice versa. For many women, Heathcliff is a
+					<lb facs="#facs_2_l_20" n="N006"/>by women, and vice versa. For many women, <persName key="Heathcliff" ref="http://www.wikidata.org/entity/Q2499865" ana="webannotation:http://temp.lincsproject.ca/YnuSE3ts3Nz">Heathcliff</persName> is a
 					<lb facs="#facs_2_l_21" n="N007"/>romantic hero; for many men, he is a posturing oaf they'd like
 					<lb facs="#facs_2_l_22" n="N008"/>to punch in the nose. For many men, The Ginger Man's Sebastian
 					<lb facs="#facs_2_l_23" n="N009"/>Dangerfield is an energy-packed rebel; for many women, he is
@@ -1057,6 +1057,95 @@
         "type": "crm:E21_Person",
         "label": "Porter, Katherine",
         "description": ""
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/YnuSE3ts3Nz">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/YnuSE3ts3Nz",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:50:45.826Z",
+    "creator": {
+        "id": "https://github.com/hjlaur314",
+        "type": "crm:E21_Person",
+        "name": "Haley Laurila"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/pt0nvTQZ85Q",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/pt0nvTQZ85Q/selector/textPosition/kGdn8NCYsUN",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1274,
+                "end": 1284,
+                "refinedBy": {
+                    "id": "/target/pt0nvTQZ85Q/selector/textQuote/jJoUTsVsfek",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Heathcliff",
+                    "prefix": " For many women,",
+                    "suffix": "is a\n\t\t\t\t\tromantic hero; for many men, he is a posturing oaf they'd like\n\t\t\t\t\tto punch in the nose"
+                }
+            },
+            {
+                "id": "/target/pt0nvTQZ85Q/selector/css/ymD3jVaXbFh",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/YnuSE3ts3Nz]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q2499865",
+        "type": "crm:E21_Person",
+        "label": "Heathcliff",
+        "description": "fictional character in the novel Wuthering Heights"
     },
     "P2_has_type": [
         "oa:identifying"
