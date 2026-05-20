@@ -70,7 +70,7 @@
 				<p>
 					<lb facs="#facs_3_l_8" n="N001"/>I was recently on a panel—that polygonal form of discourse so
 					<lb facs="#facs_3_l_9" n="N002"/>beloved of the democratic twentieth century—consisting entirely
-					<lb facs="#facs_3_l_10" n="N003"/>of women, including <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330" ana="webannotation:http://temp.lincsproject.ca/aIrUo5VS0ua">Jan Morris</persName>, who used to be James Morris,
+					<lb facs="#facs_3_l_10" n="N003"/>of women, including <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330" ana="webannotation:http://temp.lincsproject.ca/aIrUo5VS0ua">Jan Morris</persName>, who used to be <persName key="Reeves, James" ref="http://viaf.org/viaf/95332241" ana="webannotation:http://temp.lincsproject.ca/whrNKbUL9fF">James Morris</persName>,
 					<lb facs="#facs_3_l_11" n="N004"/>and Nayantara Sahgal of India. From the audience came the
 					<lb facs="#facs_3_l_13" n="N005"/>question, "How do you feel about being on a panel of women?"
 					<lb facs="#facs_3_l_14" n="N006"/>We all prevaricated. Some of us protested that we had been on
@@ -1235,6 +1235,95 @@
         "type": "crm:E21_Person",
         "label": "Morris, Jan, 1926-2020.",
         "description": "Morris, Jan, 1926-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/whrNKbUL9fF">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/whrNKbUL9fF",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:51:15.098Z",
+    "creator": {
+        "id": "https://github.com/hjlaur314",
+        "type": "crm:E21_Person",
+        "name": "Haley Laurila"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/0gtQ0ujKowL",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/0gtQ0ujKowL/selector/textPosition/UtFKaNQYo2C",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2882,
+                "end": 2894,
+                "refinedBy": {
+                    "id": "/target/0gtQ0ujKowL/selector/textQuote/QHDd0I8GLZB",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "James Morris",
+                    "prefix": ")\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tI was recently on a panel—that polygonal form of discourse so\n\t\t\t\t\tbeloved of the democratic twentieth century—consisting entirely\n\t\t\t\t\tof women, including Jan Morris, who used to be",
+                    "suffix": "\n\t\t\t\t\tand Nayantara Sahgal of India"
+                }
+            },
+            {
+                "id": "/target/0gtQ0ujKowL/selector/css/0XKP9Lwty9S",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/whrNKbUL9fF]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/95332241",
+        "type": "crm:E21_Person",
+        "label": "Reeves, James",
+        "description": "Reeves, James, 1909-1978"
     },
     "P2_has_type": [
         "oa:identifying"
