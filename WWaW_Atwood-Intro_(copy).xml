@@ -2230,6 +2230,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520124527878",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T16:45:27.878Z",
+	"dcterms:modified": "2026-05-20T17:39:10.215Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -2261,7 +2262,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/86692340",
+		"@id": "http://www.wikidata.org/entity/Q47619",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -4792,7 +4793,7 @@
 					from the norm. Previous collections have mixed the genders; this
 					one is unisexual. That the editors have chosen to bring together,
 					within the same covers, fifteen writers as diverse as <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/hiY90Jb3sgU">Dorothy Parker</persName>
-					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/5YwP0OGEDJ1">Marianne Moore</persName> and <persName key="West, Rebecca, 1892-1983" ref="http://viaf.org/viaf/108321467">Rebecca West</persName>, <persName key="Dinesen, Isak, 1885-1962" ref="http://viaf.org/viaf/121643918">Isak
+					and <persName key="Nadine Gordimer" ref="http://www.wikidata.org/entity/Q47619">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/5YwP0OGEDJ1">Marianne Moore</persName> and <persName key="West, Rebecca, 1892-1983" ref="http://viaf.org/viaf/108321467">Rebecca West</persName>, <persName key="Dinesen, Isak, 1885-1962" ref="http://viaf.org/viaf/121643918">Isak
 					Dinesen</persName> and <persName key="Hellman, Lillian, 1905-1984." ref="http://viaf.org/viaf/101362826" ana="webannotation:http://temp.lincsproject.ca/4BgfwaBYMgJ">Lillian Hellman</persName>, <persName key="McCarthy, Mary, 1912-1989." ref="http://viaf.org/viaf/105465037" ana="webannotation:http://temp.lincsproject.ca/D59l2paqmwI">Mary McCarthy</persName> and <persName key="Porter, Katherine" ref="http://vocab.getty.edu/ulan/500006389" ana="webannotation:http://temp.lincsproject.ca/RdgzOApMhgn">Katherine
 					Anne Porter</persName>, over what, in some cases, would doubtless be their
 					dead bodies, merely because they share a double-X chromosome,
