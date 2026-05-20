@@ -214,7 +214,7 @@
 				<p>
 					<lb facs="#facs_6_l_22" n="N001"/>MCCARTHY: Some women writers make it. I mean, there's
 					<lb facs="#facs_6_l_23" n="N002"/>a certain kind of woman writer who's a capital W, capital
-					<lb facs="#facs_6_l_24" n="N003"/>W. Virginia Woolf certainly was one, and Katherine Mans-
+					<lb facs="#facs_6_l_24" n="N003"/>W. <persName key="Woolf, Virginia, 1882-1941." ref="http://viaf.org/viaf/39385478" ana="webannotation:http://temp.lincsproject.ca/MS8nS4q4iMJ">Virginia Woolf</persName> certainly was one, and Katherine Mans-
 					<lb facs="#facs_6_l_25" n="N004"/>field was one, and Elizabeth Bowen is one. Katherine Anne
 					<lb facs="#facs_6_l_26" n="N005"/>Porter? Don't think she really is—I mean, her writing is
 					<lb facs="#facs_6_l_32" n="N006"/>certainly very feminine, but I would say that there wasn't
@@ -1672,6 +1672,95 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/vG0Saeyrsj0]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/39385478",
+        "type": "crm:E21_Person",
+        "label": "Woolf, Virginia, 1882-1941.",
+        "description": "Woolf, Virginia"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/MS8nS4q4iMJ">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/MS8nS4q4iMJ",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:53:38.105Z",
+    "creator": {
+        "id": "https://github.com/hjlaur314",
+        "type": "crm:E21_Person",
+        "name": "Haley Laurila"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/RHuajMOr5FK",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/RHuajMOr5FK/selector/textPosition/CfXKHyNxapJ",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9954,
+                "end": 9968,
+                "refinedBy": {
+                    "id": "/target/RHuajMOr5FK/selector/textQuote/g8cQKdgaoeZ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Virginia Woolf",
+                    "prefix": "",
+                    "suffix": "certainly was one, and Katherine Mans-\n\t\t\t\t\tfield was one, and Elizabeth Bowen is one"
+                }
+            },
+            {
+                "id": "/target/RHuajMOr5FK/selector/css/vpTN0L2XFO6",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/MS8nS4q4iMJ]"
             }
         ]
     },
