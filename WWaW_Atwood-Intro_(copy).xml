@@ -1008,7 +1008,7 @@
 		"oa:hasSelector": {
 			"@id": "undefined?person_annotation_20260520114658806#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/q[3]/persName"
+			"rdf:value": "TEI/text/body/div/q[3]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1961,6 +1961,240 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20260520115834785",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-20T15:58:34.785Z",
+	"dcterms:modified": "2026-05-20T15:58:34.785Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/hjlaur314",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Haley Laurila"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20260520115834785#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20260520115834785#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/q[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/95151447",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20260520115844740",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-20T15:58:44.740Z",
+	"dcterms:modified": "2026-05-20T15:58:44.740Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/hjlaur314",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Haley Laurila"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20260520115844740#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20260520115844740#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/q[3]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q120432",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20260520115858653",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-20T15:58:58.653Z",
+	"dcterms:modified": "2026-05-20T15:58:58.653Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/hjlaur314",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Haley Laurila"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20260520115858653#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20260520115858653#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/24606774",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 		
 	
@@ -1983,7 +2217,7 @@
 					is not due to a sudden mental aberration. Rather it has been the
 					result of readers' requests. Why not a gathering of women writers?
 					the editor were asked. Well, why not? Which is not quite the
-					same thing as why.
+					same thing as <emph>why</emph>.
 				</p>
             <p>
 					To some the answer would seem self-evident: women writers
@@ -2009,7 +2243,7 @@
 					style: are women really more subjective? do their novels really
 					end with questions? Especially in this age of semiotics, gender-
 					linked analysis may seek to explore attitudes towards language
-					itself. Is there a distinct female écriture? Does the mother-tongue
+					itself. Is there a distinct female <lang xml:lang="fr">écriture</lang>? Does the mother-tongue
 					really belong to mothers, or is it yet one more male-shaped in-
 					stitution bent, like foot-binding, on the deformation and hobbling
 					of women? I have had it suggested to me, in all seriousness, that
@@ -2100,8 +2334,8 @@
 					wrote novels had a role in the world, and he could play
 					that role and do whatever he wanted behind it. A woman
 					who wrote novels had no particular role. Women who wrote
-					novels were quite often perceived as invalids. Carson
-					McCullers, Jane Bowles. <persName key="O'Connor, Flannery, 1925-1964." ref="http://viaf.org/viaf/17227472" ana="webannotation:http://temp.lincsproject.ca/SkRcGJwQrRw">Flannery O'Connor</persName> of course.
+					novels were quite often perceived as invalids. <persName key="McCullers, Carson, 1917-1967" ref="http://viaf.org/viaf/95151447">Carson
+					McCullers</persName>, <persName key="Jane Bowles" ref="http://www.wikidata.org/entity/Q120432">Jane Bowles</persName>. <persName key="O'Connor, Flannery, 1925-1964." ref="http://viaf.org/viaf/17227472" ana="webannotation:http://temp.lincsproject.ca/SkRcGJwQrRw">Flannery O'Connor</persName> of course.
 					Novels by women tended to be described, even by their
 					publishers, as sensitive. I'm not sure this is so true anymore,
 					but it certainly was at the time, and I didn't much like it.
@@ -2119,7 +2353,7 @@
             <p>
 					Not least among perceived social differences is the difficulty
 					woman writers have experienced in being taken "altogether
-					seriously" as legitimate artists. Ezra Pound, writing in the second
+					seriously" as legitimate artists. <persName key="Pound, Ezra, 1885-1972." ref="http://viaf.org/viaf/24606774">Ezra Pound</persName>, writing in the second
 					decade of this century, spoke for many male authors and critics
 					before and since: "I distrust the 'female artist.' . . . Not wildly
 					anti-feminist we are yet to be convinced that any woman ever
