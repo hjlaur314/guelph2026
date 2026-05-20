@@ -4224,6 +4224,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520131734311",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-20T17:17:34.311Z",
+	"dcterms:modified": "2026-05-20T17:17:34.311Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/hjlaur314",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Haley Laurila"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520131734311#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520131734311#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[27]/persName[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/61556825",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 		
 	
@@ -4518,7 +4597,7 @@
 					from the <placeName key="United States" ref="http://www.wikidata.org/entity/Q30">United States</placeName>, <placeName key="Ireland" ref="http://www.wikidata.org/entity/Q27">Ireland</placeName>, England, Denmark, and South
 					Africa, there are none here from, for instance, India or Australia
 					or Canada or Latin America: no <persName key="Munro, Alice, 1931-2024." ref="http://viaf.org/viaf/68944521" ana="webannotation:http://temp.lincsproject.ca/0g2bb8cKFvL">Alice Munro</persName>, no <persName key="Anita Desai" ref="http://viaf.org/viaf/54161277" ana="webannotation:http://temp.lincsproject.ca/Q79QCq3W8Wt">Anita Desai</persName>,
-					no <persName key="Isabel Allende" ref="http://www.wikidata.org/entity/Q83566">Isabel Allend</persName>. As this assemblage is unisexual, so is it uni-
+					no <persName key="Isabel Allende" ref="http://www.wikidata.org/entity/Q83566"><persName key="Allende, Isabel, 1942-" ref="http://viaf.org/viaf/61556825">Isabel Allende</persName></persName>. As this assemblage is unisexual, so is it uni-
 					colored: thus far no <persName key="Morrison, Toni, 1931-2019." ref="http://viaf.org/viaf/109406177" ana="webannotation:http://temp.lincsproject.ca/iEfe3VHpzyC">Toni Morrison</persName>, no <persName key="Walker, Alice, 1944-...." ref="http://viaf.org/viaf/108495772">Alice Walker</persName>, no Louise
 					Erdrich. Nor are there many writers who are known for an explicit
 					and self-aware examination of the more colonial features of the
