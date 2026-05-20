@@ -255,7 +255,7 @@
 					<lb facs="#facs_7_l_38" n="N005"/>(P. 304)
 				</p>
 				<p>
-					<lb facs="#facs_7_l_10" n="N001"/>Cynthia Ozick also says that the biographers of Wharton and
+					<lb facs="#facs_7_l_10" n="N001"/>Cynthia Ozick also says that the biographers of <persName key="Wharton, Edith, 1862-1937." ref="http://viaf.org/viaf/17230986" ana="webannotation:http://temp.lincsproject.ca/ooixYUYmgLy">Wharton</persName> and
 					<lb facs="#facs_7_l_11" n="N002"/>Woolf "missed the writer" in their subjects, and this is probably
 					<lb facs="#facs_7_l_12" n="N003"/>easier to do with women than with men. There is, still, a sort of
 					<lb facs="#facs_7_l_13" n="N004"/>trained-dog fascination with the idea of women writers—not that
@@ -2036,6 +2036,95 @@
         "type": "crm:E21_Person",
         "label": "O'Connor, Flannery, 1925-1964.",
         "description": "Oconnor, Flannery"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ooixYUYmgLy">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ooixYUYmgLy",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:54:03.821Z",
+    "creator": {
+        "id": "https://github.com/hjlaur314",
+        "type": "crm:E21_Person",
+        "name": "Haley Laurila"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/wknh9qNLOjL",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/wknh9qNLOjL/selector/textPosition/mokx44GpDZV",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 11461,
+                "end": 11468,
+                "refinedBy": {
+                    "id": "/target/wknh9qNLOjL/selector/textQuote/pTdC7tJ8FDO",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Wharton",
+                    "prefix": " 304)\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tCynthia Ozick also says that the biographers of",
+                    "suffix": "and\n\t\t\t\t\tWoolf \"missed the writer\" in their subjects, and this is probably\n\t\t\t\t\teasier to do with women than with men"
+                }
+            },
+            {
+                "id": "/target/wknh9qNLOjL/selector/css/0sO8bH7qS3W",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ooixYUYmgLy]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/17230986",
+        "type": "crm:E21_Person",
+        "label": "Wharton, Edith, 1862-1937.",
+        "description": "Wharton, Edith 1862-1938"
     },
     "P2_has_type": [
         "oa:identifying"
