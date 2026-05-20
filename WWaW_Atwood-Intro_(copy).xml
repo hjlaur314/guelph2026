@@ -2390,6 +2390,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520124553777",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T16:45:53.777Z",
+	"dcterms:modified": "2026-05-20T17:41:45.078Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
