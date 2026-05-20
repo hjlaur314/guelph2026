@@ -95,7 +95,7 @@
 				<p>
 					<lb facs="#facs_4_l" n="N001"/>tool, a means towards an end, rather than as a Muse who will
 					<lb facs="#facs_4_l_1" n="N002"/>desert you if you break trust. In the interview which begins this
-					<lb facs="#facs_4_l_2" n="N003"/>collection. Dorothy Parker articles the dilemma:
+					<lb facs="#facs_4_l_2" n="N003"/>collection. <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/gVwtxIFtTsk">Dorothy Parker</persName> articles the dilemma:
 				</p>
 				<p>
 					<lb facs="#facs_4_l_36" n="N001"/>I'm a feminist, and God knows I'm loyal to my sex, and
@@ -693,6 +693,95 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/hiY90Jb3sgU]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/7395211",
+        "type": "crm:E21_Person",
+        "label": "Parker, Dorothy, 1893-1967.",
+        "description": "Parker, Dorothy"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/gVwtxIFtTsk">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/gVwtxIFtTsk",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:50:11.800Z",
+    "creator": {
+        "id": "https://github.com/hjlaur314",
+        "type": "crm:E21_Person",
+        "name": "Haley Laurila"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/8RpFwZhsLyb",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/8RpFwZhsLyb/selector/textPosition/GiH9SzjhFNT",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 4222,
+                "end": 4236,
+                "refinedBy": {
+                    "id": "/target/8RpFwZhsLyb/selector/textQuote/Gs5zD8SNYix",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Dorothy Parker",
+                    "prefix": "",
+                    "suffix": "articles the dilemma:\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tI'm a feminist, and God knows I'm loyal to my sex, and\n\t\t\t\t\tyou must remember that from my very early days, when\n\t\t\t\t\tthis city was scarcely safe from buffaloes, I was in the struggle\n\t\t\t\t\tfor equal rights for women"
+                }
+            },
+            {
+                "id": "/target/8RpFwZhsLyb/selector/css/JDYtH6rVU8A",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/gVwtxIFtTsk]"
             }
         ]
     },
