@@ -303,7 +303,7 @@
 					<lb facs="#facs_8_l_21" n="N003"/>to date by The Paris Review. Thus, although there are writers
 					<lb facs="#facs_8_l_22" n="N004"/>from the United States, Ireland, England, Denmark, and South
 					<lb facs="#facs_8_l_23" n="N005"/>Africa, there are none here from, for instance, India or Australia
-					<lb facs="#facs_8_l_24" n="N006"/>or Canada or Latin America: <persName key="Munro, Alice, 1931-2024." ref="http://viaf.org/viaf/68944521" ana="webannotation:http://temp.lincsproject.ca/0g2bb8cKFvL">no Alice Munro</persName>, no Anita Desai,
+					<lb facs="#facs_8_l_24" n="N006"/>or Canada or Latin America: <persName key="Munro, Alice, 1931-2024." ref="http://viaf.org/viaf/68944521" ana="webannotation:http://temp.lincsproject.ca/0g2bb8cKFvL">no Alice Munro</persName>, <persName key="Anita Desai" ref="http://viaf.org/viaf/54161277" ana="webannotation:http://temp.lincsproject.ca/Q79QCq3W8Wt">no Anita Desai</persName>,
 					<lb facs="#facs_8_l_25" n="N007"/>no Isabel Allende. As this assemblage is unisexual, so is it uni-
 					<lb facs="#facs_8_l_26" n="N008"/>colored: thus far no Toni Morrison, no Alice Walker, no Louise
 					<lb facs="#facs_8_l_27" n="N009"/>Erdrich. Nor are there many writers who are known for an explicit
@@ -879,6 +879,95 @@
         "type": "crm:E21_Person",
         "label": "Munro, Alice, 1931-2024.",
         "description": "Munro, Alice"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Q79QCq3W8Wt">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Q79QCq3W8Wt",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:46:37.605Z",
+    "creator": {
+        "id": "https://github.com/hjlaur314",
+        "type": "crm:E21_Person",
+        "name": "Haley Laurila"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/JmbTUHwEYMm",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/JmbTUHwEYMm/selector/textPosition/zeAYyI9sN0P",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 14243,
+                "end": 14257,
+                "refinedBy": {
+                    "id": "/target/JmbTUHwEYMm/selector/textQuote/xoFue9J2Qqq",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "no Anita Desai",
+                    "prefix": " Thus, although there are writers\n\t\t\t\t\tfrom the United States, Ireland, England, Denmark, and South\n\t\t\t\t\tAfrica, there are none here from, for instance, India or Australia\n\t\t\t\t\tor Canada or Latin America: no Alice Munro,",
+                    "suffix": "\n\t\t\t\t\tno Isabel Allende"
+                }
+            },
+            {
+                "id": "/target/JmbTUHwEYMm/selector/css/4AAqPReXyvU",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Q79QCq3W8Wt]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/54161277",
+        "type": "crm:E21_Person",
+        "label": "Anita Desai",
+        "description": ""
     },
     "P2_has_type": [
         "oa:identifying"
