@@ -1805,6 +1805,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20260520115718334",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-20T15:57:18.334Z",
+	"dcterms:modified": "2026-05-20T15:57:18.334Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/hjlaur314",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Haley Laurila"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20260520115718334#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20260520115718334#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/100161330",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20260520115727551",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-20T15:57:27.551Z",
+	"dcterms:modified": "2026-05-20T15:57:27.551Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/hjlaur314",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Haley Laurila"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20260520115727551#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20260520115727551#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/113514914",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 		
 	
@@ -1823,7 +1979,7 @@
 					and Nadine Gordimer, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/5YwP0OGEDJ1">Marianne Moore</persName> and Rebecca West, Isak
 					Dinesen and <persName key="Hellman, Lillian, 1905-1984." ref="http://viaf.org/viaf/101362826" ana="webannotation:http://temp.lincsproject.ca/4BgfwaBYMgJ">Lillian Hellman</persName>, <persName key="McCarthy, Mary, 1912-1989." ref="http://viaf.org/viaf/105465037" ana="webannotation:http://temp.lincsproject.ca/D59l2paqmwI">Mary McCarthy</persName> and <persName key="Porter, Katherine" ref="http://vocab.getty.edu/ulan/500006389" ana="webannotation:http://temp.lincsproject.ca/RdgzOApMhgn">Katherine
 					Anne Porter</persName>, over what, in some cases, would doubtless be their
-					dead bodies, merely because they share a double-X chronosome,
+					dead bodies, merely because they share a double-X chromosome,
 					is not due to a sudden mental aberration. Rather it has been the
 					result of readers' requests. Why not a gathering of women writers?
 					the editor were asked. Well, why not? Which is not quite the
@@ -1858,7 +2014,7 @@
 					stitution bent, like foot-binding, on the deformation and hobbling
 					of women? I have had it suggested to me, in all seriousness, that
 					women ought not to write at all, since to do so is to dip one's
-					hand, like Shakespeares dyer, into a medium both sullied and
+					hand, like Shakespeare's dyer, into a medium both sullied and
 					sullying. (This suggestion was not made telepathically, but in
 					spoken sentences; since, for polemicists as for writers themselves,
 					the alternative to language is silence.)
@@ -1872,9 +2028,9 @@
 					We all prevaricated. Some of us protested that we had been on
 					lots of panels that included men; others said that most panels
 					were male, with a woman dotted here and there for decorative
-					effect, like parsley. Jan Morris said that she was in the process of
+					effect, like parsley. <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330">Jan Morris</persName> said that she was in the process of
 					transcending gender and was aiming at becoming a horse, to
-					which Nayantara Sahgal replied that she hoped it was an English
+					which <persName key="Sahgal, Nayantara, 1927-...." ref="http://viaf.org/viaf/113514914">Nayantara Sahgal</persName> replied that she hoped it was an English
 					horse, since in some other, poorer countries, horses were not
 					treated very well. Which underlined, for all of us, that there are
 					categories other than male and female worth considering.
@@ -2099,9 +2255,9 @@
 					to date by The Paris Review. Thus, although there are writers
 					from the United States, Ireland, England, Denmark, and South
 					Africa, there are none here from, for instance, India or Australia
-					or Canada or Latin America: <persName key="Munro, Alice, 1931-2024." ref="http://viaf.org/viaf/68944521" ana="webannotation:http://temp.lincsproject.ca/0g2bb8cKFvL">no Alice Munro</persName>, <persName key="Anita Desai" ref="http://viaf.org/viaf/54161277" ana="webannotation:http://temp.lincsproject.ca/Q79QCq3W8Wt">no Anita Desai</persName>,
+					or Canada or Latin America: no <persName key="Munro, Alice, 1931-2024." ref="http://viaf.org/viaf/68944521" ana="webannotation:http://temp.lincsproject.ca/0g2bb8cKFvL">Alice Munro</persName>, no <persName key="Anita Desai" ref="http://viaf.org/viaf/54161277" ana="webannotation:http://temp.lincsproject.ca/Q79QCq3W8Wt">Anita Desai</persName>,
 					no Isabel Allende. As this assemblage is unisexual, so is it uni-
-					colored: thus far <persName key="Morrison, Toni, 1931-2019." ref="http://viaf.org/viaf/109406177" ana="webannotation:http://temp.lincsproject.ca/iEfe3VHpzyC">no Toni Morrison</persName>, no Alice Walker, no Louise
+					colored: thus far no <persName key="Morrison, Toni, 1931-2019." ref="http://viaf.org/viaf/109406177" ana="webannotation:http://temp.lincsproject.ca/iEfe3VHpzyC">Toni Morrison</persName>, no Alice Walker, no Louise
 					Erdrich. Nor are there many writers who are known for an explicit
 					and self-aware examination of the more colonial features of the
 					relationships between men as a group and women: no Marilyn
@@ -2123,20 +2279,17 @@
 					From Joyce Carol Oates, one of the youngest writers in this group:
 				</p>
             <p>
-					I take seriously Flaubert's statement must love
-					one another in our art as the mystics love another in
-					God. By honoring one another's creation we honor some-
-					thing that deeply connected us all, and beyond us
+					<q>I take seriously Flaubert's statement must love one another in our art as the mystics love another in God. By honoring one another's creation we honor some- thing that deeply connected us all, and beyond us</q>
 					(Pp. 383-384)
 				</p>
             <p>
 					And from Dorothy Parker, one of the oldest:
 				</p>
-            <p>
+            <q>
 					I want so much to write well, though I know I don't . . .
 					But during and at the end of my life, I will adore those who
 					have. (P. 119)
-				</p>
+				</q>
             <p>
 					MARGARET ATWOOD, 1988
 				</p>
