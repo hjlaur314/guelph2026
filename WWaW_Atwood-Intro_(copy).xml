@@ -1842,6 +1842,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520115718334",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:57:18.334Z",
+	"dcterms:modified": "2026-05-21T13:18:08.844Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -1873,7 +1874,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/100161330",
+		"@id": "http://www.wikidata.org/entity/Q3395844",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1920,6 +1921,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520115727551",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:57:27.551Z",
+	"dcterms:modified": "2026-05-21T13:18:24.686Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -1951,7 +1953,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/113514914",
+		"@id": "http://www.wikidata.org/entity/Q448399",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -4849,9 +4851,9 @@
 					We all prevaricated. Some of us protested that we had been on
 					lots of panels that included men; others said that most panels
 					were male, with a woman dotted here and there for decorative
-					effect, like parsley. <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330">Jan Morris</persName> said that she was in the process of
+					effect, like parsley. <persName key="Jan Morris" ref="http://www.wikidata.org/entity/Q3395844">Jan Morris</persName> said that she was in the process of
 					transcending gender and was aiming at becoming a horse, to
-					which <persName key="Sahgal, Nayantara, 1927-...." ref="http://viaf.org/viaf/113514914">Nayantara Sahgal</persName> replied that she hoped it was an English
+					which <persName key="Nayantara Sahgal" ref="http://www.wikidata.org/entity/Q448399">Nayantara Sahgal</persName> replied that she hoped it was an English
 					horse, since in some other, poorer countries, horses were not
 					treated very well. Which underlined, for all of us, that there are
 					categories other than male and female worth considering.
