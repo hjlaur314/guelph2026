@@ -987,6 +987,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520114658806",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:46:58.806Z",
+	"dcterms:modified": "2026-05-21T13:20:31.562Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -1018,7 +1019,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/17227472",
+		"@id": "http://www.wikidata.org/entity/Q234579",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2003,6 +2004,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520115834785",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:58:34.785Z",
+	"dcterms:modified": "2026-05-21T13:20:10.352Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -2034,7 +2036,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/95151447",
+		"@id": "http://www.wikidata.org/entity/Q230591",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2081,6 +2083,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520115844740",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:58:44.740Z",
+	"dcterms:modified": "2026-05-21T13:20:21.854Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -4927,8 +4930,8 @@
 					wrote novels had a role in the world, and he could play
 					that role and do whatever he wanted behind it. A woman
 					who wrote novels had no particular role. Women who wrote
-					novels were quite often perceived as invalids. <persName key="McCullers, Carson, 1917-1967" ref="http://viaf.org/viaf/95151447">Carson
-					McCullers</persName>, <persName key="Jane Bowles" ref="http://www.wikidata.org/entity/Q120432">Jane Bowles</persName>. <persName key="O'Connor, Flannery, 1925-1964." ref="http://viaf.org/viaf/17227472" ana="webannotation:http://temp.lincsproject.ca/SkRcGJwQrRw">Flannery O'Connor</persName> of course.
+					novels were quite often perceived as invalids. <persName key="Carson McCullers" ref="http://www.wikidata.org/entity/Q230591">Carson
+					McCullers</persName>, <persName key="Jane Bowles" ref="http://www.wikidata.org/entity/Q120432">Jane Bowles</persName>. <persName key="Flannery O'Connor" ref="http://www.wikidata.org/entity/Q234579" ana="webannotation:http://temp.lincsproject.ca/SkRcGJwQrRw">Flannery O'Connor</persName> of course.
 					Novels by women tended to be described, even by their
 					publishers, as sensitive. I'm not sure this is so true anymore,
 					but it certainly was at the time, and I didn't much like it.
