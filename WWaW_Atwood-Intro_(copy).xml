@@ -2708,6 +2708,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520125257807",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T16:52:57.807Z",
+	"dcterms:modified": "2026-05-21T13:19:27.085Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -2739,7 +2740,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/108187427",
+		"@id": "http://www.wikidata.org/entity/Q217557",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2786,6 +2787,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520125323522",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T16:53:23.522Z",
+	"dcterms:modified": "2026-05-21T13:19:39.787Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -2817,7 +2819,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/100261335",
+		"@id": "http://www.wikidata.org/entity/Q267691",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -4901,7 +4903,7 @@
 <q>By and large, I don't think it matters a damn what sex a writer is, so long as the work is that of a real writer</q> (p. 260), if what
 					she means is that it shouldn't matter, in any true assesment of
 					talent of accomplishment, but unfortunately it often has mattered,
-					to other people. When <persName key="Oates, Joyce Carol, 1938-...." ref="http://viaf.org/viaf/108187427">Joyce Carol Oates</persName> is asked the "woman"
+					to other people. When <persName key="Joyce Carol Oates" ref="http://www.wikidata.org/entity/Q217557">Joyce Carol Oates</persName> is asked the "woman"
 					question. phrased in her case as "What are the advantages of being
 					a woman writer?", she makes a virtue of necessity:
 				</p>
@@ -4913,7 +4915,7 @@
 				</q>
             <pb facs="https://raw.githubusercontent.com/hjlaur314/guelph2026/refs/heads/main/WWaWimages/wwaw_05.png" n="5"/>
             <p>
-					<persName key="Didion, Joan, 1934-2021." ref="http://viaf.org/viaf/100261335">Joan Didion</persName> is asked the same question in its negative form—
+					<persName key="Joan Didion" ref="http://www.wikidata.org/entity/Q267691">Joan Didion</persName> is asked the same question in its negative form—
 					"disadvantages" instead of "advantages"—and also focuses on so-
 					cial differences, social acceptance and role:
 				</p>
