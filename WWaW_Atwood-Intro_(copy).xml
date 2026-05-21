@@ -750,6 +750,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520114658805",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:46:58.805Z",
+	"dcterms:modified": "2026-05-21T13:18:48.537Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -781,7 +782,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/7395211",
+		"@id": "http://www.wikidata.org/entity/Q270707",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -828,6 +829,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520114658805",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:46:58.805Z",
+	"dcterms:modified": "2026-05-21T13:19:04.433Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -859,7 +861,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/39385478",
+		"@id": "http://www.wikidata.org/entity/Q40909",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -906,6 +908,7 @@
 	"id": "https://raw.githubusercontent.com/hjlaur314/guelph2026/main/WWaW_Atwood-Intro_(copy).xml?person_annotation_20260520114658805",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-20T15:46:58.805Z",
+	"dcterms:modified": "2026-05-21T13:19:15.505Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/hjlaur314",
 		"@type": [
@@ -937,7 +940,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/86692340",
+		"@id": "http://www.wikidata.org/entity/Q47619",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -4870,7 +4873,7 @@
             <p>
 					tool, a means towards an end, rather than as a Muse who will
 					desert you if you break trust. In the interview which begins this
-					collection. <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/gVwtxIFtTsk">Dorothy Parker</persName> articulates the dilemma:
+					collection. <persName key="Dorothy Parker" ref="http://www.wikidata.org/entity/Q270707" ana="webannotation:http://temp.lincsproject.ca/gVwtxIFtTsk">Dorothy Parker</persName> articulates the dilemma:
 				</p>
             <q>
 					I'm a feminist, and God knows I'm loyal to my sex, and
@@ -4891,10 +4894,10 @@
 					them jumpy.
 				</p>
             <p>
-               <persName key="Woolf, Virginia, 1882-1941." ref="http://viaf.org/viaf/39385478" ana="webannotation:http://temp.lincsproject.ca/vG0Saeyrsj0">Virginia Woolf</persName> may have been right about the androgynous
+               <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" ana="webannotation:http://temp.lincsproject.ca/vG0Saeyrsj0">Virginia Woolf</persName> may have been right about the androgynous
 					nature of the artist, but she was right also about the differences
 					in social situation these androgynous artists are certain to en-
-					counter. We may agree with <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/INmZiiG4t0K">Nadine Gordimer</persName> when she says,
+					counter. We may agree with <persName key="Nadine Gordimer" ref="http://www.wikidata.org/entity/Q47619" ana="webannotation:http://temp.lincsproject.ca/INmZiiG4t0K">Nadine Gordimer</persName> when she says,
 <q>By and large, I don't think it matters a damn what sex a writer is, so long as the work is that of a real writer</q> (p. 260), if what
 					she means is that it shouldn't matter, in any true assesment of
 					talent of accomplishment, but unfortunately it often has mattered,
